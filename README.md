@@ -1,4 +1,4 @@
-# Q_entropy_portfolio: A Software to Estimate Tsallis (q) Relatve Entropy as a 'relative risk' measure of a portfolio (or individual equities) as compared to a market index
+# Q_entropy_portfolio: A Software to Estimate Tsallis (q) Relatve Entropy as a 'Relative Risk' Measure of a Portfolio (Relative to a Market Index)
 
 ## Author/Developer:     Sandhya Devi     4/20/2019
 ### Reference: The algorithm is described in the publications
