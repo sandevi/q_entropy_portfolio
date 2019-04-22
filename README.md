@@ -23,12 +23,12 @@
 
 ## Data 
 
-### The data required to run this software is the stock/bond data in .csv format. It should have two headers followed by data. ex:
-ex:
+### The data required to run this software is the stock/bond data in .csv format. It should have two headers followed by data. 
+### ex:
 ### Ticker symbol
 ### date  open  High  Low  Close  Adj_close  Volume
 ### 1-4-1995 459.209991	459.269989	457.200012	459.109985	459.109985	262450000
-###The date is treated as having 3 columns. The data columns are 4 -9 Any of the data columns 4-8 can be used for the analysis. Default(preferred)  is 8  since it is adjusted for dividend and splits. Also the data should not have 'null' characters in it.
+### The date is treated as having 3 columns. The data columns are 4 -9 Any of the data columns 4-8 can be used for the analysis. Default(preferred)  is 8  since it is adjusted for dividend and splits. Also the data should not have 'null' characters in it.
 
 ### Two  sets of data are needed. 1) Reference data (usually a market index, ex: S&P 500, nasdaq ----) and 2) Individual equities fom which to construct the portfolio. 
 
