@@ -51,13 +51,9 @@
 ### out_path: Name of the directory path to which the output file containing
 ### risk estimates to be written;
 ### ex: '\fullpath\' 
-###
-## mm1, dd1, yr1: month, day, year of the date when investment starts.
-## (ex: today's date)
-## Note: The risk parameters are calculated for  this date. For this,
-## there should be at least 6 yrs  of daily data (both reference and 
-## the portfolio equity data) prior to this date. (see reference 2).
-##
+### mm1, dd1, yr1: month, day, year of the date when investment starts.
+### (ex: today's date)
+
 ## nd_b: no: of days (samples) to be used for the parameters of Ttsallis
 ## relative entropy estimation. (min = default 1300 smpls. More the better).
 ##
