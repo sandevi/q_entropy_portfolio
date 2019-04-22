@@ -30,6 +30,6 @@
 ### 1-4-1995 459.209991	459.269989	457.200012	459.109985	459.109985	262450000
 ### The date is treated as having 3 columns. The data columns are 4 -9 Any of the data columns 4-8 can be used for the analysis. Default(preferred)  is 8  since it is adjusted for dividend and splits. Also the data should not have 'null' characters in it.
 
-### Two  sets of data are needed. 1) Reference data (usually a market index, ex: S&P 500, nasdaq ----) and 2) Individual equities fom which to construct the portfolio. 
+### Two  sets of data are needed. 1) Reference data (usually a market index, ex: S&P 500, nasdaq ----) and 2) Individual equities data fom which to construct the portfolio. 
 
 
