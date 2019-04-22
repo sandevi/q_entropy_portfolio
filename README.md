@@ -36,40 +36,22 @@
 
 ###  General Usage:
 ###  [ outfil ] = qportfolio_main(ref_file, stk_port, out_path, col, mm1, dd1, yr1, nd_b,  nd_est) 
+
 ###  Minimal Usage
 ###  [ outfil ] = qportfolio_main(ref_file, stk_port, out_path, col, mm1, dd1, yr1)
 
 ## Input:
 ##
-## ref_file: Name of the reference file containing index data (preferably daily data) in .csv format
-## ex: ref_file = '\fullpath\refdat.csv'
-
-
-## Directory containing exclusively the individual stocks to be used to
-## construct risk optimal portfolios.
-
-## ex: '\fullpath\*.csv' 
-##
-
-## The data should have two header followed by data
-##
-## ex:
-##
-## Ticker symbol
-## date  open  High  Low  Close  Adj_close  Volume
-## 1/4/1995 459.209991	459.269989	457.200012	459.109985	459.109985	262450000
-## The date is treated as having 3 columns. The data columns are 4 -9
-## Any of the data columns 4-8 can be used for the analysis. Default(preferred)
-## is 8  since it is adjusted for dividend and splits.
-## Also the data should not have 'null' characters in it.
-##
-## col:  column no. to be used for estimation; The data is assumed to have
-## 9 columns, month/day/year open hi low close adj.close volume (default = 8)
-##
-## out_path: Name of the directory path to which the output file containing
-## risk estimates to be written;
-## ex: '\fullpath\' 
-##
+### Mandatory Input
+###
+### ref_file: Name of the reference file containing index data (preferably daily data) in .csv format
+### ex: ref_file = '\fullpath\refdat.csv'
+### stk_port:  List of names of the files for portfolio construction
+### ex: '\fullpath\*.csv' 
+### out_path: Name of the directory path to which the output file containing
+### risk estimates to be written;
+### ex: '\fullpath\' 
+###
 ## mm1, dd1, yr1: month, day, year of the date when investment starts.
 ## (ex: today's date)
 ## Note: The risk parameters are calculated for  this date. For this,
