@@ -16,3 +16,20 @@
 
 ## Scope: 
 ### The Tsallis relative entropy can be used as a risk measure for constructing managed portfolios that likely exceed Market Returns over a reasonably long period (ex:  >= 3 yrs)
+
+## Disclaimer
+### This is a research Software. The software is tested on S&P 500 and Nasdaq stocks.
+### This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. see http://www.gnu.org/licenses/.
+
+## Data 
+
+### The data required to run this software is the stock/bond data in .csv format. It should have two headers followed by data. ex:
+ex:
+### Ticker symbol
+### date  open  High  Low  Close  Adj_close  Volume
+### 1-4-1995 459.209991	459.269989	457.200012	459.109985	459.109985	262450000
+###The date is treated as having 3 columns. The data columns are 4 -9 Any of the data columns 4-8 can be used for the analysis. Default(preferred)  is 8  since it is adjusted for dividend and splits. Also the data should not have 'null' characters in it.
+
+### Two  sets of data are needed. 1) Reference data (usually a market index, ex: S&P 500, nasdaq ----) and 2) Individual equities fom which to construct the portfolio. 
+
+
