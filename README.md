@@ -32,4 +32,61 @@
 
 ### Two  sets of data are needed. 1) Reference data (usually a market index, ex: S&P 500, nasdaq ----) and 2) Individual equities data fom which to construct the portfolio. 
 
+##	Usage of the Software
+
+###  General Usage:
+###  [ outfil ] = qportfolio_main(ref_file, stk_port, out_path, col, mm1, dd1, yr1, nd_b,  nd_est) 
+###  Minimal Usage
+###  [ outfil ] = qportfolio_main(ref_file, stk_port, out_path, col, mm1, dd1, yr1)
+
+## Input:
+##
+## ref_file: Name of the reference file containing index data (preferably daily data) in .csv format
+## ex: ref_file = '\fullpath\refdat.csv'
+
+
+## Directory containing exclusively the individual stocks to be used to
+## construct risk optimal portfolios.
+
+## ex: '\fullpath\*.csv' 
+##
+
+## The data should have two header followed by data
+##
+## ex:
+##
+## Ticker symbol
+## date  open  High  Low  Close  Adj_close  Volume
+## 1/4/1995 459.209991	459.269989	457.200012	459.109985	459.109985	262450000
+## The date is treated as having 3 columns. The data columns are 4 -9
+## Any of the data columns 4-8 can be used for the analysis. Default(preferred)
+## is 8  since it is adjusted for dividend and splits.
+## Also the data should not have 'null' characters in it.
+##
+## col:  column no. to be used for estimation; The data is assumed to have
+## 9 columns, month/day/year open hi low close adj.close volume (default = 8)
+##
+## out_path: Name of the directory path to which the output file containing
+## risk estimates to be written;
+## ex: '\fullpath\' 
+##
+## mm1, dd1, yr1: month, day, year of the date when investment starts.
+## (ex: today's date)
+## Note: The risk parameters are calculated for  this date. For this,
+## there should be at least 6 yrs  of daily data (both reference and 
+## the portfolio equity data) prior to this date. (see reference 2).
+##
+## nd_b: no: of days (samples) to be used for the parameters of Ttsallis
+## relative entropy estimation. (min = default 1300 smpls. More the better).
+##
+## nd_est: Portfolio turn over time.
+## This is also time delay for returns (Ex: 1 day(daily), 22 days(monthly)) ---
+## for estimating parameters. Default = 66. Advice is to keep the default.
+
+##Output
+
+## outfile: Text file containing the  equity ticker symbol and the risk values
+## for all equities provided.
+##
+
 
