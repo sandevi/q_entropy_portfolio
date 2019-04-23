@@ -35,10 +35,10 @@
 ##	Usage of the Software
 
 ###  General Usage:
-###  [ outfil ] = qportfolio_main(ref_file, stk_port, out_path, col, mm1, dd1, yr1, nd_b,  nd_est) 
+###  [ outfil ] = qportfolio_main(ref_file, stk_port, out_path, mm1, dd1, yr1, num_turnover, nd_b, col) 
 
 ###  Minimal Usage
-###  [ outfil ] = qportfolio_main(ref_file, stk_port, out_path, col, mm1, dd1, yr1)
+###  [ outfil ] = qportfolio_main(ref_file, stk_port, out_path, mm1, dd1, yr1)
 
 ## Input:
 ##
@@ -53,17 +53,15 @@
 ### ex: '\fullpath\' 
 ### mm1, dd1, yr1: month, day, year of the date when investment starts.
 ### (ex: today's date)
+## num_turnover: Portfolio turn over time in days. (ex: 66 days (3 mnths), default)
 
-## nd_b: no: of days (samples) to be used for the parameters of Ttsallis
-## relative entropy estimation. (min = default 1300 smpls. More the better).
-##
-## nd_est: Portfolio turn over time.
-## This is also time delay for returns (Ex: 1 day(daily), 22 days(monthly)) ---
-## for estimating parameters. Default = 66. Advice is to keep the default.
+### nd_b: no: of days (samples) to be used for the parameters of Ttsallis
+### relative entropy estimation. (min = default 1300 smpls. More the better).
+### col: Column of the data to be used (default = 8)
 
 ##Output
 
-## outfile: Text file containing the  equity ticker symbol and the risk values
+## outfil: Text file containing the  equity ticker symbol and the risk values
 ## for all equities provided.
 ##
 
