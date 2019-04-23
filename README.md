@@ -42,13 +42,11 @@
 
 ## Input:
 ### Mandatory Input
-### ref_file: Name of the reference file containing index data (preferably daily data) in .csv format ex: ref_file = '\fullpath\refdat.csv'
-### stk_port:  List of names of the files for portfolio construction. ex: '\fullpath\*.csv' 
+### ref_file: Name of the reference file containing index data (preferably daily data) in .csv format.  ex: ref_file = '\fullpath\refdat.csv'
+### stk_port:  List of names of the files for portfolio construction.  ex: '\fullpath\*.csv' 
 ### out_path: Name of the directory path to which the output file containing
-### risk estimates to be written;
-### ex: '\fullpath\' 
-### mm1, dd1, yr1: month, day, year of the date when investment starts.
-### (ex: today's date)
+### risk estimates to be written;  ex: '\fullpath\' 
+### mm1, dd1, yr1: month, day, year of the date when investment starts.  (ex: today's date)
 ## num_turnover: Portfolio turn over time in days. (ex: 66 days (3 mnths), default)
 
 ### nd_b: no: of days (samples) to be used for the parameters of Ttsallis
