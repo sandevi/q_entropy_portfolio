@@ -48,7 +48,7 @@
 ### mm1, dd1, yr1: month, day, year of the date when investment starts.  (ex: today's date)
 ### num_turnover: Portfolio turn over time in days. (ex: 66 days (3 mnths), default)
 
-### nd_b: no: of days (samples) to be used for the parameters of Ttsallis relative entropy estimation. (min = default 1300 smpls. More the better).
+### nd_b: no: of days (samples) to be used for the parameters of Ttsallis relative entropy estimation. (min = default 1300 smpls. More the better). If there arent at least 1300 samples before the date of investment number entered, the corresponding equity is rejected.  
 ### col: Column of the data to be used (default = 8)
 
 ###  Output
