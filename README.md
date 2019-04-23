@@ -9,7 +9,7 @@
 ### 2.  Financial Portfolios based on Tsallis Relative Entropy as the Risk Measure 
 ###   arXiv:1901.04945 
 
-###  Contact: For questions and help in using this software sdevi@entropicdynamics.com
+##  Contact: For questions and help in using this software sdevi@entropicdynamics.com
 
 ### The software is developed in OCTAVE (which is compatible with MATLAB). The executable for OCTAVE can be downloaded from https://www.gnu.org/software/octave
 
@@ -44,8 +44,7 @@
 ### Mandatory Input
 ### ref_file: Name of the reference file containing index data (preferably daily data) in .csv format.  ex: ref_file = '\fullpath\refdat.csv'
 ### stk_port:  List of names of the files for portfolio construction.  ex: '\fullpath\*.csv' 
-### out_path: Name of the directory path to which the output file containing
-### risk estimates to be written;  ex: '\fullpath\' 
+### out_path: Name of the directory path to which the output file containing risk estimates to be written;  ex: '\fullpath\' 
 ### mm1, dd1, yr1: month, day, year of the date when investment starts.  (ex: today's date)
 ### num_turnover: Portfolio turn over time in days. (ex: 66 days (3 mnths), default)
 
