@@ -41,13 +41,9 @@
 ###  [ outfil ] = qportfolio_main(ref_file, stk_port, out_path, mm1, dd1, yr1)
 
 ## Input:
-##
 ### Mandatory Input
-###
-### ref_file: Name of the reference file containing index data (preferably daily data) in .csv format
-### ex: ref_file = '\fullpath\refdat.csv'
-### stk_port:  List of names of the files for portfolio construction
-### ex: '\fullpath\*.csv' 
+### ref_file: Name of the reference file containing index data (preferably daily data) in .csv format ex: ref_file = '\fullpath\refdat.csv'
+### stk_port:  List of names of the files for portfolio construction. ex: '\fullpath\*.csv' 
 ### out_path: Name of the directory path to which the output file containing
 ### risk estimates to be written;
 ### ex: '\fullpath\' 
@@ -59,7 +55,7 @@
 ### relative entropy estimation. (min = default 1300 smpls. More the better).
 ### col: Column of the data to be used (default = 8)
 
-##Output
+##  Output
 
 ## outfil: Text file containing the  equity ticker symbol and the risk values
 ## for all equities provided.
