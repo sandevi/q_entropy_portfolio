@@ -9,9 +9,9 @@
 ### 2.  Financial Portfolios based on Tsallis Relative Entropy as the Risk Measure 
 ###   arXiv:1901.04945 
 
-##  Contact: For questions and help in using this software sdevi@entropicdynamics.com
+###  Contact: For questions and help in using this software sdevi@entropicdynamics.com
 
-## The software is developed in OCTAVE (which is compatible with MATLAB). The executable for OCTAVE can be downloaded from https://www.gnu.org/software/octave
+### The software is developed in OCTAVE (which is compatible with MATLAB). The executable for OCTAVE can be downloaded from https://www.gnu.org/software/octave
 
 
 ## Scope: 
@@ -54,7 +54,7 @@
 
 ###  Output
 
-## outfil: Text file containing the  equity ticker symbol and the risk values for all equities provided.
-##
+### outfil: Text file containing the  equity ticker symbol and the risk values for all equities provided.
+###
 
 
