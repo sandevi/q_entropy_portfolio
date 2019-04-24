@@ -16,8 +16,7 @@
 
 ## Scope: 
 ### The Tsallis relative entropy can be used as a risk measure for constructing managed portfolios that likely exceed Market Returns over a reasonably long period (ex:  >= 3 yrs)
-### For research results and plots of relative risk vs. expected ecess return, visit the portfolio analysis section in
- www.entropicdynamics.com
+### For research results and plots of relative risk vs. expected ecess return, visit the portfolio analysis section in www.entropicdynamics.com
 
 ## Disclaimer
 ### This is a research Software. The software is tested on S&P 500 and Nasdaq stocks.
